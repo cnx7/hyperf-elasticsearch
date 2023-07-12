@@ -1,5 +1,5 @@
 {
-    "name": "wo_orld/hyperf-elasticsearch",
+    "name": "cnx7/hyperf-elasticsearch",
     "description": "适用于hyperf的es8协程客户端",
     "type": "library",
     "license": "MIT",
@@ -8,12 +8,6 @@
             "World\\HyperfElasticsearch\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "wo_orld",
-            "email": "li163_mail@163.com"
-        }
-    ],
     "minimum-stability": "beta",
     "homepage": "https://github.com/jooklove/hyperf-elasticsearch.git",
     "keywords": [
@@ -23,7 +17,7 @@
     "require": {
 		"php": ">=8.0",
 		"ext-swoole": ">=4.5",
-		"elasticsearch/elasticsearch": "8.6.*",
+		"elasticsearch/elasticsearch": "8.8.*",
         "hyperf/config": "~3.0.0",
         "hyperf/guzzle": "~3.0.0",
         "hyperf/logger": "~3.0.0",
