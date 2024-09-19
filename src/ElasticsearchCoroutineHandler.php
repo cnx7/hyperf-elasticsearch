@@ -6,6 +6,7 @@ namespace World\HyperfElasticsearch;
 use GuzzleHttp\Psr7\Response;
 use Hyperf\Engine\Http\RawResponse;
 use Hyperf\Guzzle\RingPHP\CoroutineHandler;
+use function Hyperf\Collection\data_get;
 
 class ElasticsearchCoroutineHandler extends CoroutineHandler
 {
