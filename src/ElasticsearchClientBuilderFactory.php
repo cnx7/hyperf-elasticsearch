@@ -13,7 +13,10 @@ namespace World\HyperfElasticsearch;
 
 use Elastic\Elasticsearch\ClientBuilder;
 use Hyperf\Logger\LoggerFactory;
-use Hyperf\Utils\Coroutine;
+use Hyperf\Coroutine\Coroutine;
+use function Hyperf\Collection\data_get;
+use function Hyperf\Config\config;
+use function Hyperf\Support\make;
 
 class ElasticsearchClientBuilderFactory
 {
