@@ -18,10 +18,10 @@
 		"php": ">=8.0",
 		"ext-swoole": ">=4.5",
 		"elasticsearch/elasticsearch": "8.8.*",
-        "hyperf/config": "~3.0.0",
-        "hyperf/guzzle": "~3.0.0",
-        "hyperf/logger": "~3.0.0",
-        "hyperf/utils": "^3.0.0"
+        "hyperf/config": "~3.1.0",
+        "hyperf/guzzle": "~3.1.0",
+        "hyperf/logger": "~3.1.0",
+        "hyperf/utils": "^3.1.0"
 	},
 	"extra": {
 		"hyperf": {
